@@ -42,7 +42,7 @@ python manage.py migrate
 <br>
 
 # API Endpoints
-The `littleLemon` app has a total of 4 endpoints. Additionally, `Djoser` endpoints are available.
+The `restaurant` app has a total of 4 endpoints. Additionally, `Djoser` endpoints are available.
 <br>
 
 Each endpoint requires a Token for authorization. Pass the token in the header of the request such as
@@ -52,7 +52,7 @@ Each endpoint requires a Token for authorization. Pass the token in the header o
 <br>
 
 
-### Endpoints for `littleLemon` app
+### Endpoints for `restaurant` app
 ```jsx
 http:127.0.0.1:8000/api/menu-items/
 http:127.0.0.1:8000/api/menu-items/{menu-itemId}/
