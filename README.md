@@ -51,16 +51,12 @@ Each endpoint requires a Token for authorization. Pass the token in the header o
 ```
 <br>
 
-In Insomnia, add the token as follows
-
-![Untitled](assets/insomnia.png)
-<br>
 
 ### Endpoints for `littleLemon` app
 ```jsx
-http:127.0.0.1:8000/api/menu-items
-http:127.0.0.1:8000/api/menu-items/{menu-itemId}
+http:127.0.0.1:8000/api/menu-items/
+http:127.0.0.1:8000/api/menu-items/{menu-itemId}/
 http:127.0.0.1:8000/api/bookings
-http:127.0.0.1:8000/api/bookings/{bookingId}
+http:127.0.0.1:8000/api/bookings/{bookingId}/
 ```
 <br>
