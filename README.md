@@ -41,6 +41,21 @@ python manage.py migrate
 ```
 <br>
 
+# API Endpoints
+The `littleLemon` app has a total of 4 endpoints. Additionally, `Djoser` endpoints are available.
+<br>
+
+Each endpoint requires a Token for authorization. Pass the token in the header of the request such as
+```jsx
+{'Authorization': 'Bearer <token>'}
+```
+<br>
+
+In Insomnia, add the token as follows
+
+![Untitled](assets/insomnia.png)
+<br>
+
 ### Endpoints for `littleLemon` app
 ```jsx
 http:127.0.0.1:8000/api/menu-items
