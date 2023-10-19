@@ -24,14 +24,6 @@ class BookingView(ListCreateAPIView):
     serializer_class = BookingSerializer
     permission_classes = [IsAuthenticated]
 
-    def get(self, request):
-        if request.GET.get('date') is not None:
-            date = request.query_params.get('date')
-        else:
-            date = timezone.now().date()
-        self.queryset = self.queryset.filter(booking_date=date)
-        return super().get(request)
-
 
 class SingleBookingView(RetrieveUpdateDestroyAPIView):
     queryset = Booking.objects.all()
