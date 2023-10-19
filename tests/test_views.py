@@ -1,6 +1,6 @@
 from django.test import TestCase
-from littleLemon.models import Menu
-from littleLemon.serializers import MenuSerializer
+from restuarant.models import Menu
+from restuarant.serializers import MenuSerializer
 
 class MenuViewTest(TestCase):
 
